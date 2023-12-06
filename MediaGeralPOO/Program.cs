@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.Title = "### Media Geral dos Alunos";
+            Console.Title = "### Media Geral dos Alunos1";
             Console.Write("Quantos alunos? ");
             int nAlunos = int.Parse(Console.ReadLine());
             Console.WriteLine();
@@ -17,7 +17,7 @@
                 Console.Write($"Aluno #{(i + 1)} Nome..: ");
                 string nome = Console.ReadLine();
 
-                Console.Write($"Aluno #{(i + 1)} Provas: ");
+                Console.Write($"Aluno #{(i + 1)} Provas1: ");
                 int provas = int.Parse(Console.ReadLine());
 
                 alunos[i] = new Aluno(nome, provas);
