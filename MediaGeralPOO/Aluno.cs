@@ -21,6 +21,7 @@ namespace MediaGeralPOO
             }
         }
 
+
         public Aluno(string nome, int provas) 
         {
             Nome = nome;
