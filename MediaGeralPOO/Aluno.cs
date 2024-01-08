@@ -8,6 +8,7 @@ namespace MediaGeralPOO
 {
     class Aluno
     {
+
         public string Nome {  get; private set; }
 
         private double[] _notas;
